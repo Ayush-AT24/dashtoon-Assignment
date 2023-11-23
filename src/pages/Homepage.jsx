@@ -1,11 +1,12 @@
 import Typewriter from "typewriter-effect";
 import Navbar from "../components/Navbar";
+import { useNavigate } from "react-router-dom";
 
 
 export default function HomePage() {
-
+    const Navigate = useNavigate();
     function onClick() {
-        window.location = "/comic-strip";
+        Navigate("/comic-strip");
     }
 
     return (
