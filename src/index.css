@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root{
+  padding: 0px;
+  margin: 0px;
+  max-width: 100%;
+}
+
+body {
+  /* background-color: #2d3748; */
+  background-image: url("/bg.jpg");
+  background-size: cover;
+}
